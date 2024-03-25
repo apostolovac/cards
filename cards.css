@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --color-primary: #0a0a0a;
+    --color-secondary: #0a0a0aad;
+    --color-third: #525252;
+    --color-fourth: #646464;
+    --color-fifth: #00000013;
+    --color-sixth: #3a3a3a;
+    --color-seventh: #212121;
+    --color-eight: #ffffff;
+}
+
+body {
+    background-color: var(--color-seventh);
+    color: var(--color-fourth);
+    font-family: "Arimo", sans-serif;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-sixth);
+    box-shadow: 0px 15px 30px -6px rgba(0, 0, 0, 0.5);
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: var(--color-fourth);
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.title {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.search-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.search-header__input {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: var(--color-primary);
+    border: solid 0.5px var(--color-third);
+    color: var(--color-fourth);
+    border-radius: 25px;
+    width: 170px;
+    height: 25px;
+    transition: all ease-in-out 0.5s;
+    margin-right: -2rem;
+    opacity: 1;
+    text-align: center;
+}
+
+.search-header__button {
+    border: none;
+    background-color: transparent;
+}
+
+.search-header__button:hover {
+    cursor: pointer;
+}
+
+.search-header__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: var(--color-sixth);
+}
