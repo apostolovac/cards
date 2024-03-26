@@ -95,7 +95,7 @@ main {
     margin: 65px;
 }
 
-.wraper {
+.wrapper {
     padding: 0 auto;
     display: flex;
     justify-content: space-evenly;
